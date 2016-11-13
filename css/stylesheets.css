@@ -7,6 +7,10 @@ html,body{
   font-size: 400%;
 
 }
+.jumbotron p {
+  font-size: 15.5px;
+  font-family: 'Roboto', sans-serif;
+}
 div.titulo{
   padding-top: 5%;
 
