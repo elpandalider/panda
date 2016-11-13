@@ -5,7 +5,17 @@ html,body{
 .bienvenido{
   text-shadow: 2px 2px 1px #000000;
   font-size: 400%;
-
+  font-family: 'Roboto black', sans-serif !important;
+}
+h1{
+  font-family: 'Roboto black', sans-serif !important;
+}
+h1.bienvenido{
+  font-family: 'Roboto black', sans-serif !important;
+  font-weight: bold;
+}
+h3.blanco{
+  color:white;
 }
 .jumbotron p {
   font-size: 15.5px;
@@ -16,10 +26,25 @@ div.titulo{
 
 }
 h2{
-  font-family: 'Quicksand', sans-serif !important;
+  font-family: 'Oswald', sans-serif !important;
   font-size: 30px;
+  color: #9AD439;
+  font-weight: bold;
 }
-p,li.cons{
+h3{
+  color: #FF9800;
+}
+h3.verde{
+  color: #9AD439;
+}
+h4{
+  font-size: 20px;
+  font-weight: bold;
+}
+h3,h4,h5{
+  font-family:'Oxygen', sans-serif;
+}
+p,li.cons,ol,ul{
   font-size: 16px;
     font-family: 'Roboto', sans-serif;
 }
@@ -62,7 +87,10 @@ img.panel-information{
 img.destacado{
   height: 200px;
   width: auto;
-
+}
+img.media-object{
+  height:100px;
+  width: auto;
 }
 p.cons{
   margin-top: 30px;
