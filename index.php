@@ -2,6 +2,7 @@
 <html>
   <head>
     <!--Stylesheets-->
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Amiko&subset=latin" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Quicksand&subset=latin" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css" media="screen" title="no title">
@@ -16,6 +17,7 @@
     <link href="//fonts.googleapis.com/css?family=Oxygen&subset=latin" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Roboto:900&substet=latin" rel="stylesheet" type="text/css">
     <meta charset="utf-8">
+    <link href=";">
     <title>PANDA</title>
   </head>
   <body>
@@ -35,23 +37,23 @@
       </ol>
 
         <!-- slides -->
-      <div class="carousel-inner" role="listbox">
-          <div class="item active">
+      <div class="carousel-inner " role="listbox">
+          <div class="item active animatedParent" data-sequence='200'>
             <div class="fill" style="background-image:url('images/slider.jpg');"></div>
-            <div class="carousel-caption">
-              <h1 class="bienvenido" >Bienvenido</h1>
-              <h3 class="blanco">¿Buscas Ayuda?</h3>
+            <div class="carousel-caption " >
+              <h1 class="bienvenido animated bounceIn slower"  data-id="1" >Bienvenido</h1>
+              <h3 class="blanco animated bounceIn slower" data-id="2">¿Buscas Ayuda?</h3>
             </div>
           </div>
-          <div class="item">
+          <div class="item ">
             <div class="fill" style="background-image:url('images/slider5.jpg');"></div>
             <div class="carousel-caption">
-              <h1 class="bienvenido"> Actividades</h1>
-              <h3 class="blanco">Juegos, dinamicas y vídeos</h3>
+              <h1 class="bienvenido " > Actividades</h1>
+              <h3 class="blanco ">Juegos, dinamicas y vídeos</h3>
             </div>
           </div>
 
-          <div class="item">
+          <div class="item ">
             <div class="fill" style="background-image:url('images/slider7.jpg');"></div>
             <div class="carousel-caption">
               <h1 class="bienvenido"> Consejos para padres</h1>
@@ -70,9 +72,9 @@
       </a>
   </header>
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="text-center col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-3 titulo-obj">
+<div class="container-fluid "  >
+  <div class="row animatedParent">
+    <div class="text-center col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-3 titulo-obj animated bounceInUp"  data-id="1">
       <h2 class="sub"> O B J E T I V O </h2>
       <p>
         Esta página web estará centrada en la ayuda a los niños y familiares que enfrenten el
@@ -81,9 +83,9 @@
       </p>
     </div>
   </div>
-  <div class="row">
-    <div class="col-xs-12 col-md-4">
-      <div class="thumbnail">
+  <div class="row animatedParent " >
+    <div class="col-xs-12 col-md-4 animated fadeInLeft slowest">
+      <div class="thumbnail ">
         <img class="destacado limpio" src="images\des1.jpg" alt="Que es TDAH" />
         <div class="caption">
           <h3 class="verde">¿Qué es TDAH?</h3>
@@ -97,8 +99,8 @@
         </div>
       </div>
     </div>
-    <div class="col-xs-12 col-md-4">
-      <div class="thumbnail">
+    <div class="col-xs-12 col-md-4 animated fadeInDownShort slowest">
+      <div class="thumbnail ">
         <img class="destacado limpio" src="images\des2.jpg" alt="Sintomas" />
         <div class="caption">
           <h3 class="verde">Sintomas</h3>
@@ -112,7 +114,7 @@
         </div>
       </div>
     </div>
-    <div class="col-xs-12 col-md-4">
+    <div class="col-xs-12 col-md-4 animated  fadeInRightShort slowest">
       <div class="thumbnail">
         <img class="destacado limpio" src="images\des3.jpg" alt="" />
         <div class="caption">
@@ -128,8 +130,8 @@
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="panel panel-default information">
+  <div class="row animatedParent">
+    <div class="panel panel-default information animated fadeInUpShort">
       <div class="panel-body">
         <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-1">
           <div class="media titulo">
@@ -170,6 +172,7 @@
 <script type="text/javascript" src="node_modules\bootstrap\dist\js\bootstrap.js"></script>
 <script type="text/javascript" src="node_modules\bootstrap-material-design\dist\js\material.js"></script>
 <script type="text/javascript" src="node_modules\bootstrap-material-design\dist\js\ripples.js"></script>
+<script src='js/css3-animate-it.js'></script>
 <script type="text/javascript">
   $.material.init()
 </script>
