@@ -25,6 +25,24 @@ div.titulo{
   padding-top: 5%;
 
 }
+div.fab{
+  position:fixed;
+  z-index: 1;
+  bottom: 4%;
+  left: 85%;
+}
+span.fab-icon{
+  margin-top: 15px;
+}
+.btn.btn-fab.btn-info{
+  background-color: rgba(3, 169, 244, 0.69) ;
+}
+div.arriba{
+  position: absolute;
+  z-index: 1;
+  bottom: 10%;
+  left: 90%;
+}
 h2{
   font-family: 'Oswald', sans-serif !important;
   font-size: 30px;

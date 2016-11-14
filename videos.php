@@ -2,6 +2,7 @@
 <html>
   <head>
     <!--Stylesheets-->
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
     <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css" media="screen" title="no title">
     <link rel="stylesheet" href="node_modules\bootstrap-material-design\dist\css\bootstrap-material-design.css" media="screen" title="no title">
     <link rel="stylesheet" href="node_modules\bootstrap-material-design\dist\css\ripples.css" media="screen" title="no title">
@@ -10,6 +11,7 @@
     <link href="//fonts.googleapis.com/css?family=Amiko&subset=latin" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Roboto&subset=latin" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Quicksand&subset=latin" rel="stylesheet" type="text/css">
+    <link href=";">
     <meta charset="utf-8">
     <title>PANDA</title>
   </head>
@@ -20,15 +22,15 @@
   <?php require 'nav.php'; ?>
 
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1 titulo">
+      <div class="row animatedParent">
+        <div class="col-md-10 col-md-offset-1 titulo animated fadeInUpShort">
           <div class="page-header">
             <h2 align="center">Videos</h2>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-offset-2 col-md-8 juegos">
+      <div class="row animatedParent">
+        <div class="col-md-offset-2 col-md-8 juegos animated fadeInUpShort">
           <div class="panel panel-primary">
             <div class="panel-heading">
               <h3 class="panel-title">Juegos para niños</h3>
@@ -53,8 +55,8 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-offset-2 col-md-8 juegos">
+      <div class="row animatedParent">
+        <div class="col-md-offset-2 col-md-8 juegos animated fadeInUpShort">
           <div class="panel panel-primary">
             <div class="panel-heading">
               <h3 class="panel-title">Sílabas ma me mi mo mu - El Mono Sílabo</h3>
@@ -77,8 +79,8 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-offset-2 col-md-8 juegos">
+      <div class="row animatedParent">
+        <div class="col-md-offset-2 col-md-8 juegos animated fadeInUpShort">
           <div class="panel panel-primary">
             <div class="panel-heading">
               <h3 class="panel-title">Sílabas pa pe pi po pu - El Mono Sílabo - Videos Infantiles </h3>
@@ -100,8 +102,9 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-offset-2 col-md-8 juegos">
+      </div>
+        <div class="row animatedParent">
+          <div class="col-md-offset-2 col-md-8 juegos animated fadeInUpShort">
             <div class="panel panel-primary">
               <div class="panel-heading">
                 <h3 class="panel-title">Sílabas da de di do du - El Mono Sílabo - Videos Infantiles </h3>
@@ -124,8 +127,8 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-offset-2 col-md-8 juegos">
+        <div class="row animatedParent">
+          <div class="col-md-offset-2 col-md-8 juegos animated fadeInUpShort">
             <div class="panel panel-primary">
               <div class="panel-heading">
                 <h3 class="panel-title">Sílabas ca co cu - El Mono Sílabo - Videos Infantiles</h3>
@@ -148,8 +151,8 @@
             </div>
           </div>
         </div>
-      <div class="row">
-        <div class="col-md-offset-2 col-md-8 juegos">
+      <div class="row animatedParent">
+        <div class="col-md-offset-2 col-md-8 juegos animated fadeInUpShort">
           <div class="panel panel-primary">
             <div class="panel-heading">
               <h3 class="panel-title">El abecedario para niños - Aprender el alfabeto en español </h3>
@@ -174,8 +177,8 @@
 
       </div>
 
-      <div class="row">
-        <div class="col-md-offset-2 col-md-8 juegos">
+      <div class="row animatedParent">
+        <div class="col-md-offset-2 col-md-8 juegos animated fadeInUpShort">
           <div class="panel panel-primary">
             <div class="panel-heading">
               <h3 class="panel-title">Patylu - Las Vocales</h3>
@@ -199,8 +202,8 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-md-offset-2 col-md-8 juegos">
+      <div class="row animatedParent">
+        <div class="col-md-offset-2 col-md-8 juegos animated fadeInUpShort">
           <div class="panel panel-primary">
             <div class="panel-heading">
               <h3 class="panel-title">Un Dos Ato Mi Zapato - One Two Buckle My Shoe En Español - Canciones Infantiles</h3>
@@ -224,9 +227,8 @@
         </div>
       </div>
 
-      </div>
-      <div class="row">
-        <div class="col-md-offset-2 col-md-8 juegos">
+      <div class="row animatedParent">
+        <div class="col-md-offset-2 col-md-8 juegos animated fadeInUpShort">
           <div class="panel panel-primary">
             <div class="panel-heading">
               <h3 class="panel-title"> Niños catalogados TDAH: Querido profesor...</h3>
@@ -250,8 +252,7 @@
         </div>
       </div>
 
-      </div>
-    </div>
+
 
 
 
@@ -260,6 +261,7 @@
     <script type="text/javascript" src="node_modules\bootstrap\dist\js\bootstrap.js"></script>
     <script type="text/javascript" src="node_modules\bootstrap-material-design\dist\js\material.js"></script>
     <script type="text/javascript" src="node_modules\bootstrap-material-design\dist\js\ripples.js"></script>
+    <script src='js/css3-animate-it.js'></script>
     <script type="text/javascript">
       $.material.init()
     </script>

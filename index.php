@@ -35,7 +35,9 @@
           <li data-target="#carousel-inicio" data-slide-to="1"></li>
           <li data-target="#carousel-inicio" data-slide-to="2"></li>
       </ol>
-
+      <div class="arriba">
+        <a class="btn btn-info btn-fab " href="#objetivo" ><span class="glyphicon glyphicon-chevron-down fab-icon" aria-hidden="true"></span></a>
+      </div>
         <!-- slides -->
       <div class="carousel-inner " role="listbox">
           <div class="item active animatedParent" data-sequence='200'>
@@ -73,7 +75,7 @@
   </header>
 
 <div class="container-fluid "  >
-  <div class="row animatedParent">
+  <div id="objetivo" class="row animatedParent objetivo">
     <div class="text-center col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-3 titulo-obj animated bounceInUp"  data-id="1">
       <h2 class="sub"> O B J E T I V O </h2>
       <p>
@@ -84,7 +86,7 @@
     </div>
   </div>
   <div class="row animatedParent " >
-    <div class="col-xs-12 col-md-4 animated fadeInLeft slowest">
+    <div class="col-xs-12 col-md-4 animated fadeInDownShort slowest">
       <div class="thumbnail ">
         <img class="destacado limpio" src="images\des1.jpg" alt="Que es TDAH" />
         <div class="caption">
@@ -114,7 +116,7 @@
         </div>
       </div>
     </div>
-    <div class="col-xs-12 col-md-4 animated  fadeInRightShort slowest">
+    <div class="col-xs-12 col-md-4 animated  fadeInDownShort slowest">
       <div class="thumbnail">
         <img class="destacado limpio" src="images\des3.jpg" alt="" />
         <div class="caption">
@@ -164,15 +166,20 @@
       </div>
     </div>
   </div>
+
 </div>
 
 
 <!--Scripts-->
+<script type="text/javascript">
+
+</script>
 <script type="text/javascript" src="node_modules\jquery\jquery-1.9.1.js"></script>
 <script type="text/javascript" src="node_modules\bootstrap\dist\js\bootstrap.js"></script>
 <script type="text/javascript" src="node_modules\bootstrap-material-design\dist\js\material.js"></script>
 <script type="text/javascript" src="node_modules\bootstrap-material-design\dist\js\ripples.js"></script>
 <script src='js/css3-animate-it.js'></script>
+<script type="text/javascript" src="js\scroll.js"></script>
 <script type="text/javascript">
   $.material.init()
 </script>
