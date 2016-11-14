@@ -25,6 +25,24 @@ div.titulo{
   padding-top: 5%;
 
 }
+div.fab{
+  position:fixed;
+  z-index: 1;
+  bottom: 4%;
+  left: 85%;
+}
+span.fab-icon{
+  margin-top: 15px;
+}
+.btn.btn-fab.btn-info{
+  background-color: rgba(3, 169, 244, 0.69) ;
+}
+div.arriba{
+  position: absolute;
+  z-index: 1;
+  bottom: 10%;
+  left: 90%;
+}
 h2{
   font-family: 'Oswald', sans-serif !important;
   font-size: 30px;
@@ -33,7 +51,6 @@ h2{
 }
 h3{
   color: #FF9800;
-  font-family: 'Oxygen', sans-serif;
 }
 h3.verde{
   color: #9AD439;
@@ -139,17 +156,4 @@ a.li_drop:hover{
 .btn-primary:focus {
     background-color: #FF9800 !important;
     border-color: #FF9800;
-}
-.videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
-}
-.videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
 }

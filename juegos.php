@@ -2,6 +2,7 @@
 <html>
   <head>
     <!--Stylesheets-->
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
     <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css" media="screen" title="no title">
     <link rel="stylesheet" href="node_modules\bootstrap-material-design\dist\css\bootstrap-material-design.css" media="screen" title="no title">
     <link rel="stylesheet" href="node_modules\bootstrap-material-design\dist\css\ripples.css" media="screen" title="no title">
@@ -13,6 +14,7 @@
     <link href="//fonts.googleapis.com/css?family=Oswald&subset=latin" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Oxygen&subset=latin" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Roboto:900&substet=latin" rel="stylesheet" type="text/css">
+    <link href=";">
     <meta charset="utf-8">
     <title>PANDA</title>
   </head>
@@ -22,16 +24,17 @@
     <!-- Navegador -->
 <?php require 'nav.php'; ?>
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-10 col-md-offset-1 titulo">
+<div class="container-fluid ">
+
+  <div id="linea" class="row  animatedParent">
+    <div class="col-md-10 col-md-offset-1 titulo animated fadeInUpShort">
       <div class="page-header">
         <h2 align="center">Juegos</h2>
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-offset-2 col-md-8 juegos">
+  <div class="row  animatedParent">
+    <div class="col-md-offset-2 col-md-8 juegos animated fadeInUpShort">
       <div class="panel panel-primary">
         <div class="panel-heading">
           <h3 class="panel-title">Memorama Bob Esponja</h3>
@@ -55,8 +58,8 @@
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-offset-2 col-md-8 juegos">
+  <div class="row  animatedParent">
+    <div class="col-md-offset-2 col-md-8 juegos animated fadeInUpShort">
       <div class="panel panel-primary">
         <div class="panel-heading">
           <h3 class="panel-title">Simon</h3>
@@ -80,8 +83,8 @@
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-offset-2 col-md-8 juegos">
+  <div class="row  animatedParent">
+    <div class="col-md-offset-2 col-md-8 juegos animated fadeInUpShort">
       <div class="panel panel-primary">
         <div class="panel-heading">
           <h3 class="panel-title">Mario bros puzzle de personajes</h3>
@@ -105,8 +108,8 @@
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-offset-2 col-md-8 juegos">
+  <div class="row  animatedParent">
+    <div class="col-md-offset-2 col-md-8 juegos animated fadeInUpShort">
       <div class="panel panel-primary">
         <div class="panel-heading">
           <h3 class="panel-title">Los simpson parejas</h3>
@@ -130,20 +133,20 @@
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-offset-2 col-md-8 juegos">
+  <div class="row  animatedParent">
+    <div class="col-md-offset-2 col-md-8 juegos animated fadeInUpShort">
       <div class="panel panel-primary">
         <div class="panel-heading">
           <h3 class="panel-title">Colorea a personajes de scooby do</h3>
         </div>
-        <div class="panel-body">
+        <div   class="panel-body">
           <div class="media">
             <div class="media-left">
               <a href="#">
                 <img class="media-object" src="images\Juegos\scooby.jpg" alt="...">
               </a>
             </div>
-            <div class="media-body">
+            <div id="descargar" class="media-body">
               <p>
               El colorear a personajes de su caricatura favorita ayuda a retener su concentración para así
               poder mejorar la misma
@@ -155,13 +158,13 @@
       </div>
     </div>
   </div>
-  <div class="row">
-      <div class="page-header">
+  <div class="row    animatedParent">
+      <div  class="page-header animated fadeInUpShort">
         <h2 align="center">Juegos para descargar</h2>
       </div>
   </div>
-  <div class="row">
-    <div class="col-md-offset-2 col-md-8 juegos">
+  <div class="row    animatedParent">
+    <div class="col-md-offset-2 col-md-8 juegos animated fadeInUpShort">
       <div class="panel panel-primary">
         <div class="panel-heading">
           <h3 class="panel-title">¡Crea tu propio bingo!</h3>
@@ -186,8 +189,8 @@
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-offset-2 col-md-8 juegos">
+  <div class="row    animatedParent">
+    <div class="col-md-offset-2 col-md-8 juegos animated fadeInUpShort">
       <div class="panel panel-primary">
         <div class="panel-heading">
           <h3 class="panel-title">¡Une el corazón con el color correcto!</h3>
@@ -212,8 +215,8 @@
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-offset-2 col-md-8 juegos">
+  <div class="row    animatedParent">
+    <div class="col-md-offset-2 col-md-8 juegos animated fadeInUpShort">
       <div class="panel panel-primary">
         <div class="panel-heading">
           <h3 class="panel-title">¡Colorea y aprende!</h3>
@@ -238,8 +241,8 @@
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-offset-2 col-md-8 juegos">
+  <div class="row    animatedParent">
+    <div class="col-md-offset-2 col-md-8 juegos animated fadeInUpShort">
       <div class="panel panel-primary">
         <div class="panel-heading">
           <h3 class="panel-title">¡Mira de cerca!</h3>
@@ -265,8 +268,8 @@
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-offset-2 col-md-8 juegos">
+  <div class="row    animatedParent">
+    <div class="col-md-offset-2 col-md-8 juegos animated fadeInUpShort">
       <div class="panel panel-primary">
         <div class="panel-heading">
           <h3 class="panel-title">¡Busca ese color!</h3>
@@ -291,8 +294,8 @@
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-offset-2 col-md-8 juegos">
+  <div class="row    animatedParent">
+    <div class="col-md-offset-2 col-md-8 juegos animated fadeInUpShort">
       <div class="panel panel-primary">
         <div class="panel-heading">
           <h3 class="panel-title">¡Colorea a la familia de ardillas!</h3>
@@ -317,8 +320,8 @@
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-offset-2 col-md-8 juegos">
+  <div class="row    animatedParent">
+    <div class="col-md-offset-2 col-md-8 juegos animated fadeInUpShort">
       <div class="panel panel-primary">
         <div class="panel-heading">
           <h3 class="panel-title">¡Conecta los puntos!</h3>
@@ -343,9 +346,15 @@
       </div>
     </div>
   </div>
+  <div class="fab    animatedParent">
+    <div class="btn-group-vertical">
 
+      <a href="#linea" class="btn btn-raised  btn-success">En linea</a>
+      <a href="#descargar" class="btn btn-raised btn-success">Para descargar</a>
+    </div>
+    </div>
 
-</div>
+  </div>
 
 
 <!--Scripts-->
@@ -353,6 +362,8 @@
 <script type="text/javascript" src="node_modules\bootstrap\dist\js\bootstrap.js"></script>
 <script type="text/javascript" src="node_modules\bootstrap-material-design\dist\js\material.js"></script>
 <script type="text/javascript" src="node_modules\bootstrap-material-design\dist\js\ripples.js"></script>
+<script src='js/css3-animate-it.js'></script>
+<script type="text/javascript" src="js\scroll.js"></script>
 <script type="text/javascript">
   $.material.init()
 </script>
