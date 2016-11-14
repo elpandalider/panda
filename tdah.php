@@ -8,8 +8,12 @@
     <link rel="stylesheet" href="css\stylesheets.css" media="screen" title="no title">
     <link rel="stylesheet" href="css\stylesheets2.css" media="screen" title="no title">
     <link href="//fonts.googleapis.com/css?family=Amiko&subset=latin" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/css?family=Roboto&subset=latin" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Amiko&subset=latin" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Roboto&subset=latin&effect=shadow-multiple" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Quicksand&subset=latin" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Oswald&subset=latin" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Oxygen&subset=latin" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Roboto:900&substet=latin" rel="stylesheet" type="text/css">
     <meta charset="utf-8">
     <title>TDAH</title>
   </head>
