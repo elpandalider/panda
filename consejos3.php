@@ -29,8 +29,10 @@
       </div>
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
+          <h3 align="center"> Los niños con TDAH y sus problemas al manejar el tiempo </h3>
           <p class="cons">
-            Los alumnos con TDAH tienen problemas para manejarse con el tiempo. Esto es algo que da lugar a todo tipo de preguntas, como:
+            Los niños con TDAH tienen problemas para manejarse con el tiempo pero ¿cómo sabemos qué tan grave es esto?, con los siguientes
+            puntos podriarnos darnos una idea de la gravedad en donde se encuentran los niños.
           </p>
           <ul>
             <li class="cons">¿Se trata de una dificultad con intervalos muy breves (menos de un segundo), breves (segundos o minutos), largos (horas) o muy largos (días y semanas)?</li>
@@ -38,19 +40,44 @@
             <li class="cons">¿Cómo evolucionan estos problemas?</li>
 
           </ul>
-          <img class="izq" src="images\Consejos\tiempo.jpg" alt="" />
+          <img class="der" src="images\Consejos\33.jpeg" alt="" />
+          <h3> Recomendaciones externas </h3>
+          <p class="intro">
+            Lo más socorrido cuando un niño con TDAH tiene dificultades con el manejo del tiempo es utilizar ayudas externas como:
+            <ul>
+              <li>  <h5>Indicarle que ya es hora de empezar </h5> </li>
+              <li> <h5> Avisarle el tiempo que tiene disponible </h5> </li>
+              <li> <h5> Utilizar agendas </li></h5>
+              <li> <h5> <a href="dinamicas.php">Horarios o calendarios.</a> </h5> </li>
+              <li> <h5> Enseñar técnicas para priorizar tareas </h5> </li>
+            </ul>
+
+          <h3> Recomendaciones para sucesos pasados y futuros </h3>
           <p class="intro cons">
-            Lo más socorrido cuando un alumno con TDAH tiene dificultades con el manejo del tiempo es utilizar ayudas externas como indicarle que ya es hora de empezar, avisarle del tiempo que tiene disponible,
-            o utilizar con él agendas, horarios o calendarios, o enseñar técnicas para priorizar tareas.
+            Entrenar la habilidad de estimación temporal para sucesos pasados y futuros:
+            <ul>
+            <li>¿Cuánto te parece que has tardado en…?</li>
+            <li>¿Cuánto crees que tardarás en…?</li>
+          </ul>
           </p>
+            <h3> Recomendaciones para medidas de tiempo </h3>
           <p class="intro cons">
-            Entrenar la habilidad de estimación temporal para sucesos pasados y futuros: ¿cuánto te parece que has tardado en…?, ¿cuánto crees que tardarás en…?
+            Familiarizarse con las medidas de tiempo:
+          <ul>
+            <li>Usar el reloj o el calendario para actividades en las que tenga interés.</li>
+            <li>Aprender la fecha de su cumpleaños, de las vacaciones.</li>
+            <li>Saber a qué hora se levantan, se acuestan, comen.</li>
+            <li>Mirar el menú de la semana si se quedan al comedor escolar.</li>
+            <li>Jugar a juegos en los que hay tiempo limitado para hacer las cosas.</li>
+            <li>Practicar deportes cronometrados.</li>
+          </ul>
           </p>
+          <h3> Recomendaciones para el aula </h3>
           <p class="intro cons">
-            Familiarizarse con las medidas de tiempo: usar el reloj o el calendario para actividades en las que tenga interés, aprender la fecha de su cumpleaños (estos días estoy comprobando que hay bastantes niños de 6 años que no saben cuándo es su cumple), de las vacaciones, saber a qué hora se levantan, se acuestan, comen, mirar el menú de la semana si se quedan al comedor escolar, jugar a juegos en los que hay tiempo limitado para hacer las cosas, practicar deportes cronometrados.
-          </p>
-          <p class="intro cons">
-            Reforzar los conceptos temporales en clase de matemáticas: lectura de la hora, cálculo del tiempo transcurrido entre dos momentos, equivalencias temporales (cuántos días tiene un año, cuántos minutos tienen una hora, etc.)
+            Reforzar los conceptos temporales en clase de matemáticas:
+            <ul>
+            <li>Lectura de la hora</li>
+            <li>Cálculo del tiempo transcurrido entre dos momentos, equivalencias temporales (cuántos días tiene un año, cuántos minutos tienen una hora, etc.)</li>
           </p>
 
         </div>
