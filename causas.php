@@ -2,6 +2,7 @@
 <html>
   <head>
     <!--Stylesheets-->
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
     <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css" media="screen" title="no title">
     <link rel="stylesheet" href="node_modules\bootstrap-material-design\dist\css\bootstrap-material-design.css" media="screen" title="no title">
     <link rel="stylesheet" href="node_modules\bootstrap-material-design\dist\css\ripples.css" media="screen" title="no title">
@@ -16,6 +17,7 @@
     <link href="//fonts.googleapis.com/css?family=Roboto:900&substet=latin" rel="stylesheet" type="text/css">
     <meta charset="utf-8">
     <title>Causas</title>
+    <link href=";">
   </head>
   <body>
 
@@ -25,11 +27,16 @@
 
     <div class="container-fluid">
       <div class="row">
+
         <div class="col-md-10 col-md-offset-1 titulo">
-          <div class="page-header">
+          <div class="animatedParent">
+          <div class="page-heade animated fadeInUpShort">
           <h2 align="center">Posibles causas del TDAH</h2>
           </div>
-          <h3 align="center"> Genes y herencia </h3>
+        </div>
+      <div class="animatedParent">
+		  <div class="card card-block animated fadeInUpShort" style="padding: 30px;">
+		  <h3 align="center"> Genes y herencia </h3>
           <p class="intro">
             <img class="imgc" src="images/causas/genes.jpg">
             Los investigadores que han estudiado la influencia de los genes en el TDAH afirman que es hereditario.
@@ -48,13 +55,20 @@
             <br><br>
             Se han identificado 8 genes, de los cuales, 7 han mostrado una asociación estadísticamente significativa con el TDAH.
           </p>
-
+		  </div><br><br>
+      </div>
+      <div class="animatedParent">
+		<div class="card card-block animated fadeInUpShort" style="padding: 30px;">
           <h3 align="center"> Diferencias en el desarrollo del cerebro </h3>
           <p class="intro">
             Hay varias áreas del cerebro que controlan la habilidad que tiene su hijo de hacer cosas como “pisar el freno” y prestar atención.
             Los estudios muestran que esas áreas pueden desarrollarse más lentamente o ser menos activas en niños con TDAH. La mejor evidencia
             de esto ocurre en la parte frontal del cerebro o lóbulo frontal.
+			  </div><br><br>
           </p>
+</div>
+          <div class="animatedParent">
+		<div class="card card-block animated fadeInUpShort" style="padding: 30px;">
           <img class="der" src="images/causas/cerebro.jpg">
           <h3 align="center">Diferencias en la química del cerebro</h3>
           <p class="intro">
@@ -63,15 +77,20 @@
             través de circuitos complejos y dirigen nuestra atención y otros procesos cognitivos y conductuales importantes. Los científicos
             sospechan que cuando alguien tiene TDAH, los circuitos o el “cableado” podrían no estar organizados de la manera típica. Esto
              puede dificultar el uso efectivo de ciertas sustancias químicas del cerebro.
-          <p>
+          <p> </div><br><br>
+</div>
+            <div class="animatedParent">
+		  <div class="card card-block animated fadeInUpShort" style="padding: 30px;">
           <h3 align="center">Daño cerebral y epilepsia</h3>
           <p class="intro">
             Los niños que no tienen TDAH pero han sufrido lesiones cerebrales traumáticas o tienen epilepsia pueden presentar síntomas como los del TDAH.
             El número de niños que tienen TDAH y también han sufrido lesiones cerebrales traumáticas es pequeño. Los investigadores no están
             seguros si las convulsiones epilépticas pueden causar cambios en el cerebro que provoquen TDAH o si estas dos condiciones
             simplemente pueden coexistir.
-          </p>
-
+          </p><p> </div><br><br>
+</div>
+            <div class="animatedParent">
+		  <div class="card card-block animated fadeInUpShort" style="padding: 30px;">
           <h3 align="center">Factores Ambientales</h3>
           <p class="intro">
           <img class="fac" src="images/causas/factores.jpg">
@@ -84,9 +103,15 @@
           <p class="intro"><strong> Otros: </strong> consumo de heroína y cocaína durante el embarazo, exposición intrauterina al plomo y el zinc6, traumatismos craneoencefálicos en la
              primera infancia, infecciones del sistema nervioso central o la adversidad psicosocial.
           </p><br><br>
-          <div class="page-header">
+		  </div><br><br>
+      </div>
+      <div class="animatedParent">
+          <div class="page-header animated fadeInUpShort">
           <h2 align="center">Lo que no causa TDAH</h2>
           </div>
+          </div>
+          <div class="animatedParent">
+		  <div class="card card-block animated fadeInUpShort" style="padding: 30px;">
           <h3 align="center">Factores psicosociales </h3>
           <p class="intro">
             Los factores psicosociales no se consideran críticos en la etiología del TDAH, es decir, que no se cree que sean factores determinantes,
@@ -97,9 +122,10 @@
             positiva más poderosa en la vida de su hijo, amándolo y aceptándolo
           </p>
           <img class="centro" src="images/causas/No.jpg">
+		   </div><br><br>
         </div>
       </div>
-
+</div>
 
 
 
@@ -108,6 +134,7 @@
     <script type="text/javascript" src="node_modules\bootstrap\dist\js\bootstrap.js"></script>
     <script type="text/javascript" src="node_modules\bootstrap-material-design\dist\js\material.js"></script>
     <script type="text/javascript" src="node_modules\bootstrap-material-design\dist\js\ripples.js"></script>
+    <script src='js/css3-animate-it.js'></script>
     <script type="text/javascript">
       $.material.init()
     </script>

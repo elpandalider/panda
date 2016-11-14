@@ -2,6 +2,7 @@
 <html>
   <head>
     <!--Stylesheets-->
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
     <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css" media="screen" title="no title">
     <link rel="stylesheet" href="node_modules\bootstrap-material-design\dist\css\bootstrap-material-design.css" media="screen" title="no title">
     <link rel="stylesheet" href="node_modules\bootstrap-material-design\dist\css\ripples.css" media="screen" title="no title">
@@ -14,6 +15,7 @@
     <link href="//fonts.googleapis.com/css?family=Oxygen&subset=latin" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Roboto:900&substet=latin" rel="stylesheet" type="text/css">
     <meta charset="utf-8">
+    <link href=";">
     <title>Nutrición</title>
   </head>
   <body>
@@ -22,34 +24,40 @@
   <?php require 'nav.php'; ?>
 
     <div class="container">
-      <div class="text-center col-md-10 col-md-offset-1 titulo">
-        <div class="page-header">
+      <div class="text-center col-md-10 col-md-offset-1 titulo animatedParent">
+        <div class="page-header animated pulse">
           <h2>Nutrición para mejorar la concentración y el aprendizaje</h2>
-      </div>
+        </div>
       </div>
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
-          <blockquote class="blockquote ">
-          <p class="mb-0 " align="justify">
-            Los beneficios de una buena alimentación se traducen en un gran rendimiento del cerebro,
-            órgano que tendría muchas dificultades para realizar sus funciones si desde un principio
-            no recibe los nutrientes necesarios que aporta una dieta equilibrada. Los estudios recientes
-            sobre nutrición y cognición demuestran que la capacidad de aprendizaje, lenguaje, atención, memoria,
-            funciones ejecutivas, rendimiento cognitivo y hasta los estados de ánimo están ligados al consumo de
-            ciertas sustancias contenidas en alimentos específicos. Damos un repaso a los nutrientes más recomendables
-            para los niños que sufren trastorno de déficit de atención con hiperactividad (TDAH).
-          </p>
-          <footer class="blockquote-footer">Tomas Ortiz Alonso.
-            <cite title="Source Title">Catedrático Departamento de Psiquiatría y Psicología Médica Facultad de Medicina. Universidad Complutense de Madrid</cite>
-          </footer>
-        </blockquote>
+          <div class="animatedParent">
+            <blockquote class="blockquote animated fadeIn">
+            <p class="mb-0 " align="justify">
+              Los beneficios de una buena alimentación se traducen en un gran rendimiento del cerebro,
+              órgano que tendría muchas dificultades para realizar sus funciones si desde un principio
+              no recibe los nutrientes necesarios que aporta una dieta equilibrada. Los estudios recientes
+              sobre nutrición y cognición demuestran que la capacidad de aprendizaje, lenguaje, atención, memoria,
+              funciones ejecutivas, rendimiento cognitivo y hasta los estados de ánimo están ligados al consumo de
+              ciertas sustancias contenidas en alimentos específicos. Damos un repaso a los nutrientes más recomendables
+              para los niños que sufren trastorno de déficit de atención con hiperactividad (TDAH).
+            </p>
+            <footer class="blockquote-footer">Tomas Ortiz Alonso.
+              <cite title="Source Title">Catedrático Departamento de Psiquiatría y Psicología Médica Facultad de Medicina. Universidad Complutense de Madrid</cite>
+            </footer>
+            </blockquote>
+          </div>
 
-        <h3 align="center"> Alimentos buenos para el cerebro </h3>
+          <div class="animatedParent">
+            <h3 align="center " class="animated bounceIn"> Alimentos buenos para el cerebro </h3>
+          </div>
+
         <ul class="media-list">
-          <li class="media">
+          <div class="animatedParent">
+          <li class="media animated fadeInUpShort">
           <a class="media-left" href="#">
           <img class="media-object" src="images/ali/1.jpg" alt="Generic placeholder image">
-        </a>
+          </a>
             <div class="media-body">
               <h4 class="media-body"> Glucosa </h4>
               <p class="intro">Un aspecto relevante en la nutrición de los niños es que tengan siempre un nivel de glucosa estable durante el estudio,
@@ -58,9 +66,9 @@
                     tales como <strong> azúcares, miel, panes integrales, legumbres, cereales, frutas, verduras o leche </strong> mediante la lactosa.</p>
             </div>
             </li>
-
-
-            <li class="media">
+            </div>
+            <div class="animatedParent">
+            <li class="media animated fadeInUpShort">
             <a class="media-left" href="#">
             <img class="media-object" src="images/ali/2.jpg" alt="Generic placeholder image">
             </a>
@@ -69,10 +77,10 @@
                 <p class="intro">Importante para las conexiones sinápticas y el aprendizaje. Se encuentra en buenas cantidades en los <strong>cacahuates, los huevos, las patatas, los granos y los germinados de semillas.</strong></p>
               </div>
               </li>
+              </div>
 
-
-
-              <li class="media">
+              <div class="animatedParent">
+              <li class="media animated fadeInUpShort">
               <a class="media-left" href="#">
               <img class="media-object" src="images/ali/3.jpg" alt="Generic placeholder image">
               </a>
@@ -82,8 +90,9 @@
                 los músculos. Se encuentra abundantemente en las <strong> habichuelas, en la  soya, en el hígado y en los huevos.</strong></p>
               </div>
               </li>
-
-              <li class="media">
+              </div>
+              <div class="animatedParent">
+              <li class="media animated fadeInUpShort">
               <a class="media-left" href="#">
               <img class="media-object" src="images/ali/4.jpg" alt="Generic placeholder image">
               </a>
@@ -93,8 +102,10 @@
                 como la memoria y el aprendizaje, podemos encontrarlo en las <strong> harinas y las papas.</strong></p>
               </div>
               </li>
+              </div>
 
-              <li class="media">
+              <div class="animatedParent">
+              <li class="media animated fadeInUpShort">
               <a class="media-left" href="#">
               <img class="media-object" src="images/ali/5.jpg" alt="Generic placeholder image">
               </a>
@@ -104,8 +115,9 @@
                  La fenilalanina se encuentra en buenas cantidades en la<strong> carne, huevos, remolacha, habichuelas, soya, granos y almendras.</strong></p>
               </div>
               </li>
-
-              <li class="media">
+              </div>
+              <div class="animatedParent">
+                <li class="media animated fadeInUpShort">
               <a class="media-left" href="#">
               <img class="media-object" src="images/ali/9.jpg" alt="Generic placeholder image">
               </a>
@@ -116,9 +128,10 @@
                 Se encuentra en el <strong>plátano, la leche, el yogur, el queso, los huevos y la carne.</strong></p>
               </div>
               </li>
+              </div>
 
-
-              <li class="media">
+              <div class="animatedParent">
+                <li class="media animated fadeInUpShort">
               <a class="media-left" href="#">
               <img class="media-object" src="images/ali/7.jpg" alt="Generic placeholder image">
               </a>
@@ -128,9 +141,10 @@
                 con la atención. Entre los alimentos que la contienen son destacan las<strong> carnes, pescados, leche, almendras y plátanos.</strong></p>
               </div>
               </li>
+              </div>
 
-
-              <li class="media">
+              <div class="animatedParent">
+                <li class="media animated fadeInUpShort">
               <a class="media-left" href="#">
               <img class="media-object" src="images/ali/8.jpg" alt="Generic placeholder image">
               </a>
@@ -142,10 +156,12 @@
                 nueces o aceite de lino (ácido alfa linoleico).</strong></p>
               </div>
               </li>
-
+              </div>
               <p class="intro">Una buena dieta debe incluir un aporte adecuado de minerales por los beneficios que éstos ofrecen al organismo. Entre ellos podríamos destacar: </p>
 
-              <li class="media">
+
+              <div class="animatedParent">
+                <li class="media animated fadeInUpShort">
               <a class="media-left" href="#">
               <img class="media-object" src="images/ali/6.jpg" alt="Generic placeholder image">
               </a>
@@ -154,8 +170,10 @@
                   <p class="intro">El calcio, que interviene en la transmisión de los impulsos nerviosos. Para ingerirlo a través de alimentos, hemos de tomar <strong> leche y sus derivados.</strong></p>
               </div>
               </li>
+              </div>
 
-              <li class="media">
+              <div class="animatedParent">
+                <li class="media animated fadeInUpShort">
               <a class="media-left" href="#">
               <img class="media-object" src="images/ali/10.jpg" alt="Generic placeholder image">
               </a>
@@ -165,10 +183,11 @@
                 El hierro es posible encontrarlo en <strong> carnes, legumbres y frutos secos.</strong></p>
               </div>
               </li>
+              </div>
 
 
-
-              <li class="media">
+              <div class="animatedParent">
+              <li class="media animated fadeInUpShort">
               <a class="media-left" href="#">
               <img class="media-object" src="images/ali/11.jpg" alt="Generic placeholder image">
               </a>
@@ -178,7 +197,7 @@
                  es fácil hallarlo en las<strong> ostras, los crustáceos, la carne de cordero y las leguminosas.</strong></p>
               </div>
               </li>
-
+              </div>
             </ul>
       </div>
 
@@ -193,6 +212,7 @@
     <script type="text/javascript" src="node_modules\bootstrap\dist\js\bootstrap.js"></script>
     <script type="text/javascript" src="node_modules\bootstrap-material-design\dist\js\material.js"></script>
     <script type="text/javascript" src="node_modules\bootstrap-material-design\dist\js\ripples.js"></script>
+    <script src='js/css3-animate-it.js'></script>
     <script type="text/javascript">
       $.material.init()
     </script>

@@ -23,7 +23,7 @@
         <!-- Navegador -->
   <?php require 'nav.php'; ?>
 
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
         <div class="col-md-10 col-md-offset-1 titulo">
           <div class="page-header">
@@ -128,7 +128,7 @@
             En este vídeo se explica de una forma sencilla qué es lo que sucede en el cerebro de un niño que sufre trastorno por déficit de atención e hiperactividad.
           </p>
           <div class="videoWrapper">
-              
+
               <iframe width="560" height="315" src="https://www.youtube.com/embed/eyjFxlk17V0" frameborder="0" allowfullscreen></iframe>
 
               </div>
