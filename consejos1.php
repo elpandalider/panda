@@ -63,7 +63,7 @@
                 <h4 class="media-body"> Horario detallado </h4>
                 <p class="intro cons">Diseñarles un horario detallado con todas las tareas y actividades
                   que deberán hacer durante el día. Para ello, puede ser de gran utilidad emplear colores, esquemas, imágenes y en definitiva, elementos atractivos, que de manera visual le ayuden a distinguir rápidamente qué deben hacer en cada momento.
-                <br> <br> <a href="Dinamicas.php"> Da click aquí para ver más ejemplos de horarios </a></p>
+                <br> <br> <a href="Dinamicas.php#hora"> Da click aquí para ver más ejemplos de horarios </a></p>
 
                 </div>
               </li>

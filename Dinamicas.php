@@ -32,6 +32,8 @@
           </div>
         </div>
       </div>
+
+        <h3 class="media-body" align="center"> Ejercicios de escritura </h3><br>
       <div class="row animatedParent">
         <div class="col-md-offset-2 col-md-8 juegos animated fadeInUpShort">
           <div class="panel panel-primary">
@@ -167,8 +169,69 @@
           </div>
         </div>
       </div>
+  </div>
 
     </div>
+
+      <h3 id="hora"  align="center"> Organiza tu tiempo </h3><br>
+
+      <div class="row animatedParent">
+        <div class="col-md-offset-2 col-md-8 juegos animated fadeInUpShort">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">Calendario diario</h3>
+            </div>
+            <div class="panel-body">
+              <div class="media">
+                <div class="media-left">
+                  <a href="#">
+                    <img class="media-object" src="images\Dinamicas\calendario.jpeg" alt="...">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <p>
+                    El objetivo de esta actividad es que el niño aprenda que tiene deberes dentro de la escuela y
+                    de su casa, y para el sera mas facil cumplir con un horario determinado.
+                  </p>
+                  <a href="images\Dinamicas\calendario.jepg"  class="btn btn-raised btn-success" download="Calendario">
+                    Descargar
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row animatedParent">
+        <div class="col-md-offset-2 col-md-8 juegos animated fadeInUpShort">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">Deberes dentro del hogar</h3>
+            </div>
+            <div class="panel-body">
+              <div class="media">
+                <div class="media-left">
+                  <a href="#">
+                    <img class="media-object" src="images\Dinamicas\deberes.jpeg" alt="...">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <p>
+                    Es importante que el niño aprenda que todo tiene una recompensa, asi en un futuro el niño podra tener la habilidad
+                    de hacer sus deberes.
+                  </p>
+                  <a href="images\Dinamicas\deberes.jpeg"  class="btn btn-raised btn-success" download="Deberes">
+                    Descargar
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
 
 
     <!--Scripts-->

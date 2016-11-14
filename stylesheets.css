@@ -1,6 +1,6 @@
 html,body{
   height: 100%;
-  background-color: white;
+  background-color:white;
 }
 .bienvenido{
   text-shadow: 2px 2px 1px #000000;
@@ -17,31 +17,9 @@ h1.bienvenido{
 h3.blanco{
   color:white;
 }
-.jumbotron p {
-  font-size: 15.5px;
-  font-family: 'Roboto', sans-serif;
-}
 div.titulo{
   padding-top: 5%;
 
-}
-div.fab{
-  position:fixed;
-  z-index: 1;
-  bottom: 4%;
-  left: 85%;
-}
-span.fab-icon{
-  margin-top: 15px;
-}
-.btn.btn-fab.btn-info{
-  background-color: rgba(3, 169, 244, 0.69) ;
-}
-div.arriba{
-  position: absolute;
-  z-index: 1;
-  bottom: 10%;
-  left: 90%;
 }
 h2{
   font-family: 'Oswald', sans-serif !important;
@@ -156,4 +134,7 @@ a.li_drop:hover{
 .btn-primary:focus {
     background-color: #FF9800 !important;
     border-color: #FF9800;
+}
+h1.bienvenido{
+  font-family: 'Roboto', sans-serif  !important;
 }
