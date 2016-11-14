@@ -19,7 +19,8 @@ echo "
           <ul class='dropdown-menu'>
             <li><a class='li_drop' href='tdah.php'>¿Que es TDAH?</a></li>
             <li><a class='li_drop' href='causas.php'>Causas</a></li>
-            <li><a class='li_drop' href='#'></a></li>
+            <li><a class='li_drop' href='cerebro.php'>TDAH y el cerebro</a></li>
+            <li><a class='li_drop' href='tdath.php'>TDAH y cormobilidad</a></li>
           </ul>
         </li>
         <li class='navegador'><a href='sintomas.php'>Sintomas</a></li>
@@ -27,8 +28,10 @@ echo "
           <a href='#' class='dropdown-toggle navegador' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'> Consejos  <span class='caret'></span></a>
           <ul class='dropdown-menu'>
             <li><a class='li_drop' href='consejos1.php'>Consejos para organizarse</a></li>
-            <li><a class='li_drop' href='consejos2.php'>Hablar sobre TDA</a></li>
+            <li><a class='li_drop' href='consejos2.php'>Hablar sobre TDAH</a></li>
             <li><a class='li_drop' href='consejos3.php'>Gestion del tiempo</a></li>
+            <li><a class='li_drop' href='consejos4.php'>Nutrición y TDAH</a></li>
+            <li><a class='li_drop' href='consejos5.php'>Dieta Ideal</a></li>
           </ul>
         </li>
         <li class='dropdown'>
