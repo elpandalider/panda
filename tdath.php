@@ -5,11 +5,16 @@
     <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css" media="screen" title="no title">
     <link rel="stylesheet" href="node_modules\bootstrap-material-design\dist\css\bootstrap-material-design.css" media="screen" title="no title">
     <link rel="stylesheet" href="node_modules\bootstrap-material-design\dist\css\ripples.css" media="screen" title="no title">
-    <link rel="stylesheet" href="css/stylesheets.css" media="screen" title="no title">
-    <link rel="stylesheet" href="css/estilos2.css" media="screen" title="no title">
+    <link rel="stylesheet" href="css\stylesheets.css" media="screen" title="no title">
+    <link rel="stylesheet" href="css\stylesheets2.css" media="screen" title="no title">
     <link href="//fonts.googleapis.com/css?family=Amiko&subset=latin" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/css?family=Roboto&subset=latin" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Amiko&subset=latin" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Roboto&subset=latin&effect=shadow-multiple" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Quicksand&subset=latin" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Oswald&subset=latin" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Oxygen&subset=latin" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Roboto:900&substet=latin" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
     <meta charset="utf-8">
     <title>TDAH</title>
   </head>
@@ -124,7 +129,12 @@
                           La relación entre TDAH y enfermedad bipolar es compleja y controvertida. Esto se debe en parte a que algunos síntomas son comunes a ambas patologías tales como:
                           hiperactividad, impulsividad, inatención, distraibilidad, irritabilidad, problemas de sueño y capacidad de juicio disminuida.
                            La prevalencia de este trastorno asociado al TDAH es del 10% siendo más frecuente en los niños. </p>
-                        <img class="centro" src="images/s3.jpeg" width="700px" heigth="900px" alt="Niño">
+                           <div class="row">
+                             <div class="col-md-4"></div>
+                             <div class="col-md-4"><img src="images/1.jpg" class="img-rounded" alt="Niño" width:"400px" height="400px" ></div>
+                             <div class="col-md-4"></div>
+                           </div>
+
 
       </div>
       </div>
