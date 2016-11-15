@@ -44,65 +44,61 @@
             Tratar el estigma es difícil debido a que trastorno es en sí mismo muy complicado de entender:
           </p>
           <div class="row">
-<div class="col-md-6">
-  <ul class="media-list">
+            <div class="col-md-6">
+              <ul class="media-list">
+                <li class="media">
+                  <a class="media-left media-middle" href="#">
+                    <img class="media-object" src="images/Consejos/15.jpg" alt="Generic placeholder image">
+                  </a>
+                  <div class="media-body"><br><br>
+                    <h4 class="media-body"> Causas múltiples </h4>
+                    </div>
+                </li>
 
-  <li class="media">
-    <a class="media-left media-middle" href="#">
-      <img class="media-object" src="images/Consejos/15.jpg" alt="Generic placeholder image">
-    </a>
-    <div class="media-body"><br><br>
-      <h4 class="media-body"> Causas múltiples </h4>
-      <p class="intro cons"> </a></p>
-    </div>
-    </li>
-
-      <li class="media">
-        <a class="media-left media-middle" href="#">
-          <img class="media-object" src="images/Consejos/18.jpg" alt="Generic placeholder image">
-        </a>
-        <div class="media-body"><br><br>
-          <h4 class="media-body"> Dificultades de aprendizaje </h4>
-          <p class="intro cons"> </a></p>
-        </div>
-        </li>
-
-        <li class="media">
-          <a class="media-left media-middle" href="#">
-            <img class="media-object" src="images/Consejos/19.jpg" alt="Generic placeholder image">
-          </a>
-          <div class="media-body"><br><br>
-            <h4 class="media-body"> Problemas en la interacción social </h4>
-            <p class="intro cons"> </a></p>
-          </div>
-          </li>
-
-          <li class="media">
-            <a class="media-left media-middle" href="#">
-              <img class="media-object" src="images/Consejos/20.jpg" alt="Generic placeholder image">
-            </a>
-            <div class="media-body"><br><br>
-              <h4 class="media-body"> Problemas de autoconcepto </h4>
-              <p class="intro cons"> </a></p>
-            </div>
-            </li>
-
-
-      </div>
-
-  </ul>
-
-        <div class="col-md-6">
-            <ul class="media-list">
-              <li class="media">
-                <a class="media-left media-middle" href="#">
-                  <img class="media-object" src="images/Consejos/16.jpg" alt="Generic placeholder image">
-                </a>
-                <div class="media-body"><br><br>
-                  <h4 class="media-body"> Manifestaciones conductuales muy diversas</h4>
-                  <p class="intro cons"> </a></p>
+                <li class="media">
+                  <a class="media-left media-middle" href="#">
+                    <img class="media-object" src="images/Consejos/18.jpg" alt="Generic placeholder image">
+                  </a>
+                  <div class="media-body"><br><br>
+                    <h4 class="media-body"> Dificultades de aprendizaje </h4>
+                    <p class="intro cons"> </a></p>
                   </div>
                 </li>
+
+                <li class="media">
+                  <a class="media-left media-middle" href="#">
+                    <img class="media-object" src="images/Consejos/19.jpg" alt="Generic placeholder image">
+                  </a>
+                  <div class="media-body"><br><br>
+                    <h4 class="media-body"> Problemas en la interacción social </h4>
+
+                  </div>
+                </li>
+
+                <li class="media">
+                  <a class="media-left media-middle" href="#">
+                    <img class="media-object" src="images/Consejos/20.jpg" alt="Generic placeholder image">
+                  </a>
+                  <div class="media-body"><br><br>
+                    <h4 class="media-body"> Problemas de autoconcepto </h4>
+                    <p class="intro cons"> </a></p>
+                  </div>
+                </li>
+              </div>
+
+            </ul>
+
+            <div class="col-md-6">
+              <ul class="media-list">
+                <li class="media">
+                  <a class="media-left media-middle" href="#">
+                    <img class="media-object" src="images/Consejos/16.jpg" alt="Generic placeholder image">
+                  </a>
+                  <div class="media-body"><br><br>
+                    <h4 class="media-body"> Manifestaciones conductuales muy diversas</h4>
+                    <p class="intro cons"> </a></p>
+                  </div>
+                  </li>
 
                 <li class="media">
                   <a class="media-left media-middle" href="#">
