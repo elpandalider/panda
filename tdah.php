@@ -2,6 +2,7 @@
 <html>
   <head>
     <!--Stylesheets-->
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
     <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css" media="screen" title="no title">
     <link rel="stylesheet" href="node_modules\bootstrap-material-design\dist\css\bootstrap-material-design.css" media="screen" title="no title">
     <link rel="stylesheet" href="node_modules\bootstrap-material-design\dist\css\ripples.css" media="screen" title="no title">
@@ -15,6 +16,7 @@
     <link href="//fonts.googleapis.com/css?family=Oxygen&subset=latin" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Roboto:900&substet=latin" rel="stylesheet" type="text/css">
     <meta charset="utf-8">
+    <link href=";">
     <title>TDAH</title>
   </head>
   <body>
@@ -24,19 +26,22 @@
   <?php require 'nav.php'; ?>
 
     <div class="container-fluid">
-      <div class="row">
+      <div class="row ">
         <div class="col-md-10 col-md-offset-1 titulo">
-          <div class="page-header">
-          <h2 align="center">¿Qué es?</h2>
-        </div>
-         <p class="intro">
+          <div class="page-header animatedParent">
+          <h2 align="center" class=" animated fadeInUpShort">¿Qué es?</h2>
+          </div>
+        <div class=" animatedParent">
+         <p class="intro animated fadeInUpShort">
           TDAH son las siglas de <strong> Trastorno por Déficit de Atención e Hiperactividad.</strong>
           Se trata de un trastorno de carácter neurobiológico originado en la infancia que implica un patrón de déficit de atención, hiperactividad y/o impulsividad, y que en muchas ocasiones está asociado con otros trastornos comórbidos.
           <br>
-
+      </div>
           </p>
-          <div class="row">
-            <div class="col-md-8">
+
+
+        <div class="row animatedParent">
+            <div class="col-md-8 animated fadeInUpShort">
               <div class="media-body">
 
                 <p class="intro cons">
@@ -54,7 +59,7 @@
 
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 animated fadeInUpShort">
               <div class="media-left media-middle">
                   <img src="images/TDA/que.jpg" alt="icon" heigth=300px width=350px>
 
@@ -62,29 +67,29 @@
               </div>
           </div>
 
-          <div class="row">
-            <div class="col-md-4">
+          <div class="row animatedParent">
+            <div class="col-md-4 animated fadeInUpShort">
               <div class="media-left media-middle">
                   <img src="images/TDA/1.png" alt="icon" heigth=200px width=350px>
               </div>
             </div>
-            <div class="col-md-8"><p class="intro"><br>Se puede <strong> diagnosticar </strong> con mayor exactitud a niños mayores de 6 años, ya que, se reconoce cuando comienda
+            <div class="col-md-8 animated fadeInUpShort"><p class="intro"><br>Se puede <strong> diagnosticar </strong> con mayor exactitud a niños mayores de 6 años, ya que, se reconoce cuando comienda
             la educación primaria, coincidiendo con dificultados en el rendimiento escolar y la presentación de disfunciones sociales</p>
             </div>
           </div>
 
-          <div class="page-header">
-          <h3 align="center">¿Qué no es TDAH?</h3>
+          <div class="page-header animatedParent">
+          <h3 align="center" class="animated fadeInUpShort">¿Qué no es TDAH?</h3>
           </div>
-          <div class="row">
-            <div class="col-md-3">
+          <div class="row animatedParent">
+            <div class="col-md-3 animated fadeInUpShort">
               <div class="media-left media-middle">
                   <img src="images/TDA/2.jpg" alt="icon" heigth=250px width=250px>
 
                 </div>
             </div>
 
-            <div class="col-md-9"><br>
+            <div class="col-md-9 animated fadeInUpShort"><br>
               <h4><strong> TDAH no es: </strong></h4>
               <br>
               <ul>
@@ -97,11 +102,11 @@
           </div>
 
 
-          <div class="page-header">
+          <div class="page-header animatedParent">
           <h3 align="center">¿Quiénes son más propensos a padecer TDAH, los niños o las niñas?</h3>
         </div>
-          <div class="row">
-            <div class="col-md-3">
+        <div class="row animatedParent">
+            <div class="col-md-3 animated fadeInUpShort">
               <div class="media-left media-middle">
                   <img src="images/TDA/3.jpg" alt="icon" heigth=250px width=250px>
 
@@ -111,6 +116,7 @@
             <div class="col-md-9"><br>
 
               <br><br>
+            <div class="animated fadeInUpShort">
             <p class="intro">
               En la población pediátrica, se identifica el TDAH <strong> más en varones</strong> que en mujeres. La mayoría de los expertos creen que
               se comunica una incidencia mucho menor de TDAH en niñas y mujeres adolescentes porque las niñas tienden a sufrir el
@@ -118,6 +124,7 @@
               de los adultos y precipita la derivación del paciente para ser valuado. Por tanto, la relación de varones a niñas con
               un diagnóstico de TDAH es de más o menos 4:1 en la población general.
             </p>
+          </div>
             </div>
           </div>
 
@@ -133,6 +140,7 @@
     <script type="text/javascript" src="node_modules\bootstrap\dist\js\bootstrap.js"></script>
     <script type="text/javascript" src="node_modules\bootstrap-material-design\dist\js\material.js"></script>
     <script type="text/javascript" src="node_modules\bootstrap-material-design\dist\js\ripples.js"></script>
+    <script src='js/css3-animate-it.js'></script>
     <script type="text/javascript">
       $.material.init()
     </script>

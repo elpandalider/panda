@@ -2,6 +2,7 @@
 <html>
   <head>
     <!--Stylesheets-->
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Amiko&subset=latin" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css" media="screen" title="no title">
     <link rel="stylesheet" href="node_modules\bootstrap-material-design\dist\css\bootstrap-material-design.css" media="screen" title="no title">
@@ -15,6 +16,7 @@
     <link href="//fonts.googleapis.com/css?family=Oxygen&subset=latin" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Roboto:900&substet=latin" rel="stylesheet" type="text/css">
     <meta charset="utf-8">
+    <link href=";">
     <title>PANDA</title>
   </head>
   <body>
@@ -23,39 +25,46 @@
     <?php require 'nav.php'; ?>
 
     <div class="container">
-      <div class="text-center col-md-10 col-md-offset-1 titulo">
-        <div class="page-header">
+      <div class="text-center col-md-10 col-md-offset-1 titulo  animatedParent">
+        <div class="page-header animated fadeInUpShort">
           <h2>Cómo organizar el estudio en niños y niñas con TDAH</h2>
         </div>
       </div>
 
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
-          <p class="intro ">
+        <div class="animatedParent">
+          <p class="intro animated fadeInUpShort">
             Uno de los problemas a los cuales se enfrentan las familias de hijos/as con TDAH es el fracaso escolar de éstos. Este problema, que tiende
              a desesperar a los padres, se deriva de las dificultades que a veces surgen a la hora de organizarles el estudio.
           </p>
-          <img class="izq" src="images/ii.jpg">
-          <p class="intro cons">
+          <img class="izq animated fadeInUpShort" src="images/ii.jpg">
+          <p class="intro cons animated fadeInUpShort">
             Un niño/a con TDAH necesita <strong> rutinas diarias</strong>, que le <strong> marquen sus pautas de actuación</strong>
              en cada momento, y estas rutinas son necesarias tanto en casa como en el colegio.
           </p>
 
-          <p class="intro cons">
+          <p class="intro cons animated fadeInUpShort">
             Los niños/as con TDAH, a veces <strong> se enfrentan</strong> a problemas de incomprensión en el entorno, que en ocasiones no termina de entender la conducta de estos niños/as, caracterizada en gran medida por la prevalencia
              de despistes, olvidos, problemas de concentración, desorganización, impulsividad, dificultad para planificar el tiempo, etc.
           </p>
-          <p class="intro cons">
+          <p class="intro cons animated fadeInUpShort">
             Todo esto, hace imprescindible la necesidad de establecer rutinas, que de manera progresiva, les faciliten la consecución de sus logros y objetivos.
           </p>
-          <p class="intro cons">
+          <p class="intro cons animated fadeInUpShort">
             Para ello, resulta de vital importancia planificar las tareas de estos los niños de manera secuencial y estructurada, facilitándoles el conocimiento de qué hacer en cada momento.
           </p>
-          <h3 align="center"> Recomendaciones </h3>
+
+        </div>
+        <div class="animatedParent">
+          <h3 align="center" class="animated fadeInUpShort"> Recomendaciones </h3>
+        </div>
+
 
 
           <ul class="media-list">
-            <li class="media">
+            <div class="animatedParent">
+            <li class="media animated fadeInUpShort">
               <a class="media-left media-middle" href="Dinamicas.php">
                 <img class="media-object" src="images/Consejos/1.jpeg" alt="Generic placeholder image">
               </a>
@@ -67,9 +76,9 @@
 
                 </div>
               </li>
-
-
-              <li class="media">
+            </div>
+              <div class="animatedParent">
+              <li class="media animated fadeInUpShort">
                 <a class="media-left media-middle" href="#">
                   <img class="media-object" src="images/Consejos/11.jpg" alt="Generic placeholder image">
                 </a>
@@ -79,9 +88,9 @@
 
                   </div>
                 </li>
-
-
-                <li class="media">
+                </div>
+                <div class="animatedParent">
+                <li class="media animated fadeInUpShort">
                   <a class="media-left media-middle" href="#">
                     <img class="media-object" src="images/Consejos/5.jpg" alt="Generic placeholder image">
                   </a>
@@ -91,8 +100,9 @@
 
                     </div>
                   </li>
-
-                  <li class="media">
+                </div>
+                  <div class="animatedParent">
+                  <li class="media animated fadeInUpShort">
                     <a class="media-left media-middle" href="#">
                       <img class="media-object" src="images/Consejos/13.jpg" alt="Generic placeholder image">
                     </a>
@@ -103,8 +113,9 @@
 
                       </div>
                     </li>
-
-                    <li class="media">
+                    </div>
+                    <div class="animatedParent">
+                    <li class="media animated fadeInUpShort">
                       <a class="media-left media-middle" href="#">
                         <img class="media-object" src="images/Consejos/12.jpg" alt="Generic placeholder image">
                       </a>
@@ -115,8 +126,9 @@
 
                         </div>
                       </li>
-
-                      <li class="media">
+                      </div>
+                      <div class="animatedParent">
+                      <li class="media animated fadeInUpShort">
                         <a class="media-left media-middle" href="#">
                           <img class="media-object" src="images/Consejos/6.jpg" alt="Generic placeholder image">
                         </a>
@@ -130,9 +142,9 @@
 
                           </div>
                         </li>
-
-
-                        <li class="media">
+                        </div>
+                        <div class="animatedParent">
+                        <li class="media animated fadeInUpShort">
                           <a class="media-left media-middle" href="#">
                             <img class="media-object" src="images/Consejos/7.jpg" alt="Generic placeholder image">
                           </a>
@@ -145,9 +157,9 @@
 
                             </div>
                           </li>
-
-
-                          <li class="media">
+                          </div>
+                          <div class="animatedParent">
+                          <li class="media animated fadeInUpShort">
                             <a class="media-left media-middle" href="#">
                               <img class="media-object" src="images/Consejos/8.jpg" alt="Generic placeholder image">
                             </a>
@@ -157,8 +169,9 @@
 
                               </div>
                             </li>
-
-                            <li class="media">
+                            </div>
+                            <div class="animatedParent">
+                            <li class="media animated fadeInUpShort">
                               <a class="media-left media-middle" href="#">
                                 <img class="media-object" src="images/Consejos/10.jpg" alt="Generic placeholder image">
                               </a>
@@ -170,6 +183,7 @@
                                 </div>
                               </li>
                           </ul>
+                          </div>
                         </div>
 
                       </div>
@@ -185,6 +199,7 @@
     <script type="text/javascript" src="node_modules\bootstrap\dist\js\bootstrap.js"></script>
     <script type="text/javascript" src="node_modules\bootstrap-material-design\dist\js\material.js"></script>
     <script type="text/javascript" src="node_modules\bootstrap-material-design\dist\js\ripples.js"></script>
+    <script src='js/css3-animate-it.js'></script>
     <script type="text/javascript">
       $.material.init()
     </script>
