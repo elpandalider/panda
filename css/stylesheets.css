@@ -1,0 +1,159 @@
+html,body{
+  height: 100%;
+  background-color: white;
+}
+.bienvenido{
+  text-shadow: 2px 2px 1px #000000;
+  font-size: 400%;
+  font-family: 'Roboto black', sans-serif !important;
+}
+h1{
+  font-family: 'Roboto black', sans-serif !important;
+}
+h1.bienvenido{
+  font-family: 'Roboto black', sans-serif !important;
+  font-weight: bold;
+}
+h3.blanco{
+  color:white;
+}
+.jumbotron p {
+  font-size: 15.5px;
+  font-family: 'Roboto', sans-serif;
+}
+div.titulo{
+  padding-top: 5%;
+
+}
+div.fab{
+  position:fixed;
+  z-index: 1;
+  bottom: 4%;
+  left: 85%;
+}
+span.fab-icon{
+  margin-top: 15px;
+}
+.btn.btn-fab.btn-info{
+  background-color: rgba(3, 169, 244, 0.69) ;
+}
+div.arriba{
+  position: absolute;
+  z-index: 1;
+  bottom: 10%;
+  left: 90%;
+}
+h2{
+  font-family: 'Oswald', sans-serif !important;
+  font-size: 30px;
+  color: #9AD439;
+  font-weight: bold;
+}
+h3{
+  color: #FF9800;
+}
+h3.verde{
+  color: #9AD439;
+}
+h4{
+  font-size: 20px;
+  font-weight: bold;
+}
+h3,h4,h5{
+  font-family:'Oxygen', sans-serif;
+}
+p,li.cons,ol,ul{
+  font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+div.titulo-obj{
+  padding-top: 5%;
+padding-bottom: 5%;
+}
+div.titulo-juego{
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: #00ACC1 !important;
+}
+div.panel-juego{
+  margin-top: 10%;
+
+}
+div.juegos{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+div.information{
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: #ECEFF1;
+}
+div.videos{
+  height: 550px;
+}
+div.panel-heading{
+    background-color: #00ACC1 !important;
+}
+h2.juegos{
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+img.panel-information{
+  width: auto;
+  height: 15%;
+}
+img.destacado{
+  height: 200px;
+  width: auto;
+}
+img.media-object{
+  height:100px;
+  width: auto;
+}
+p.cons{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+li.cons{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navegador{
+  font-size: 15.5px;
+  background-color: #00ACC1;
+  font-family: 'Amiko', sans-serif !important;
+}
+
+.color-fondo{
+  background-color: red;
+}
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position:center;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+a.li_drop:hover{
+  color:#00ACC1 !important;
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #FF9800 !important;
+    border-color: #FF9800;
+}

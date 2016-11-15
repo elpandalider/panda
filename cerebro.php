@@ -29,6 +29,7 @@
           <div class="page-header">
           <h2 align="center">TDAH y el cerebro</h2>
           </div>
+
           <h3 align="center"> Como funciona el cerebro de un niño con TDAH </h3>
           <p class="intro">
             <img class="der" src="images/cerebro/cerebro.png" >
@@ -41,72 +42,82 @@
               <li>Alteraciones en el proceso perceptivo motor</li>
               <li>Labilidad emocional o alteraciones del aprendizaje escolar</li>
             </ul>
-            Estas no pueden atribuirse  exclusivamente a aspectos ambientales, malas relaciones sociales o alteraciones emocionales en su relación familiar o social.</p>
+            <p class="intro">   Estas no pueden atribuirse  exclusivamente a aspectos ambientales,
+               malas relaciones sociales o alteraciones emocionales en su relación familiar o social.</p>
+          <br>
             <h3 align="center"> Factores para padecer TDAH </h3>
             <p class="intro">
               Existen múltiples estudios neurobiológicos neuroquímicos, genéticos, de neuroimagen o neurofuncionales que tratan de explicar esta enfermedad cognitivo-social cada vez más común en nuestra sociedad.
               Algunas de las conclusiones de estos estudios podríamos aglutinarlas en los siguientes puntos: </p>
-            <ul class="media-list">
-              <li class="media">
-              <a class="media-left" href="#">
-              <img class="media-object" src="images/cerebro/2.jpg" alt="Generic placeholder image">
-              </a>
-                <div class="media-body">
-                  <h4 class="media-body"> Factor genético </h4>
-                  <p> También conocido como porcentaje de heredabilidad del TDAH</p>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <ul class="media-list">
+                    <li class="media">
+                      <a class="media-left media-middle" href="#">
+                        <img class="media-object" src="images/cerebro/2.jpg" alt="Generic placeholder image">
+                      </a>
+                      <div class="media-body">
+                        <h4 class="media-body"> Factor genético </h4><br>
+                        <p class="intro"> También conocido como porcentaje de heredabilidad del TDAH</p>
+                      </div>
+                    </li>
+                    <li class="media">
+                      <a class="media-left media-middle" href="#">
+                        <img class="media-object" src="images/cerebro/3.jpg" alt="Generic placeholder image">
+                      </a>
+                      <div class="media-body">
+                        <h4 class="media-body">Disfunción dopaminérgica</h4><br>
+                        <p class="intro">Disfunciones de la dopamina y otros neurotransmisores en niños con TDAH.</p>
+                      </div>
+                    </li>
+
+                    <li class="media">
+                      <a class="media-left media-middle" href="#">
+                        <img class="media-object" src="images/cerebro/4.jpg" alt="Generic placeholder image">
+                      </a>
+                      <div class="media-body">
+                        <h4 class="media-body">Alteraciones cerebrales estructurales</h4>
+                        <p class="intro">Funcionamiento deficiente de ciertas zonas del cerebro.</p>
+                      </div>
+                    </li>
+                  </div>
+                </ul>
+
+                <div class="col-md-6">
+                  <ul class="media-list">
+                    <li class="media">
+                      <a class="media-left media-middle" href="#">
+                        <img class="media-object" src="images/cerebro/5.jpg" alt="Generic placeholder image">
+                      </a>
+                      <div class="media-body">
+                        <h4 class="media-body">Disfunción fronto-estriada</h4><br>
+                        <p class="intro">Alteraciones en dicha parte del cerebro.</p>
+                      </div>
+                    </li>
+
+                    <li class="media">
+                      <a class="media-left media-middle" href="#">
+                        <img class="media-object" src="images/cerebro/6.jpg" alt="Generic placeholder image">
+                      </a>
+                      <div class="media-body">
+                        <h4 class="media-body">Disfunción cortical-posterior</h4><br>
+                        <p class="intro">Esta zona cerebral también puede estar "tocada" en un niño con TDAH.</p>
+                      </div>
+                    </li>
+
+                    <li class="media">
+                      <a class="media-left media-middle" href="#">
+                        <img class="media-object" src="images/cerebro/7.jpg" alt="Generic placeholder image">
+                      </a>
+                      <div class="media-body">
+                        <h4 class="media-body">Otras disfunciones cerebrales</h4><br>
+                        <p class="intro">Pueden ser más "partes" del cerebro las que puedan afectar al niño/a.</p>
+                      </div>
+                    </li>
+                  </ul>
                 </div>
-                </li>
-              <li class="media">
-              <a class="media-left" href="#">
-                <img class="media-object" src="images/cerebro/3.jpg" alt="Generic placeholder image">
-              </a>
-              <div class="media-body">
-              <h4 class="media-body">Disfunción dopaminérgica</h4>
-              <p>disfunciones de la dopamina y otros neurotransmisores en niños con TDAH.</p>
-            </div>
-            </li>
-
-            <li class="media">
-            <a class="media-left" href="#">
-              <img class="media-object" src="images/cerebro/4.jpg" alt="Generic placeholder image">
-            </a>
-            <div class="media-body">
-            <h4 class="media-body">Alteraciones cerebrales estructurales</h4>
-            <p>funcionamiento deficiente de ciertas zonas del cerebro.</p>
-          </div>
-          </li>
-
-          <li class="media">
-          <a class="media-left" href="#">
-            <img class="media-object" src="images/cerebro/5.jpg" alt="Generic placeholder image">
-          </a>
-          <div class="media-body">
-          <h4 class="media-body">Disfunción fronto-estriada</h4>
-          <p>Alteraciones en dicha parte del cerebro.</p>
-        </div>
-        </li>
-
-        <li class="media">
-        <a class="media-left" href="#">
-          <img class="media-object" src="images/cerebro/6.jpg" alt="Generic placeholder image">
-        </a>
-        <div class="media-body">
-        <h4 class="media-body">Disfunción cortical-posterior</h4>
-        <p>Esta zona cerebral también puede estar "tocada" en un niño con TDAH.</p>
-      </div>
-      </li>
-
-      <li class="media">
-      <a class="media-left" href="#">
-        <img class="media-object" src="images/cerebro/7.jpg" alt="Generic placeholder image">
-      </a>
-      <div class="media-body">
-      <h4 class="media-body">Otras disfunciones cerebrales</h4>
-      <p>Pueden ser más "partes" del cerebro las que puedan afectar al niño/a.</p>
-    </div>
-    </li>
-  </ul>
-
+</div>
             <h3 align="center"> Qué sucede en el cerebro de los niños con TDAH </h3>
           <p class="intro">
             Como ya se menciono previamente el trastorno por déficit de atención e hiperactividad (TDAH) se caracteriza por dificultades
