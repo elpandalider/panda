@@ -22,7 +22,9 @@
 
 
     <!-- Navegador -->
-<?php require 'nav.php'; ?>
+<?php
+session_start();
+require 'nav.php'; ?>
 
 <div class="container-fluid ">
 
@@ -352,7 +354,39 @@
       <a href="#linea" class="btn btn-raised  btn-success">En linea</a>
       <a href="#descargar" class="btn btn-raised btn-success">Para descargar</a>
     </div>
+  </div>
+  <div class="fab-reco">
+    <?php if (isset ($_SESSION['id'])){ ?>
+    <div class="panel panel-default panel-izq">
+      <br><br><br><br>
+    <?php
+      require 'SistemaRecomendacion.php';
+      require 'conexion.php';
+      require 'recoJuegos.php';
+
+      if($recomedado<>0){
+      $sql = "SELECT `titulo`, `descripcion`, `tipo` FROM `actividades` WHERE `id` ='$recomedado'";
+      $result = $conexion->query($sql);
+      $rows = $result -> num_rows;
+
+
+      if($rows>0){
+        $row = $result->fetch_assoc();
+        echo "<h3>Juegos Online</h3>";
+        echo "<h4>Se recomienda</h4>";
+        echo "<h5><strong>" . $row['titulo'] . "</strong></h5>";
+        echo "<h6>" .  utf8_encode($row['descripcion']) . "</h6>";
+
+      }
+    }else{
+      echo "<h3>Juegue online y califique</h3>";
+      echo "<h4><strong>Esto nos ayudara a darle buenas recomendaciones</strong></h4>";
+
+    }?>
+
     </div>
+    <?php }?>
+  </div>
 
   </div>
 

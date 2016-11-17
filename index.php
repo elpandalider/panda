@@ -25,7 +25,10 @@
 
     <!-- Navegador -->
 
-<?php require 'nav.php'; ?>
+<?php
+session_start();
+require('nav.php');
+?>
 
 
 <header id="carousel-inicio" class="carousel slide" data-ride="carousel">
@@ -43,7 +46,7 @@
           <div class="item active animatedParent" data-sequence='200'>
             <div class="fill" style="background-image:url('images/slider.jpg');"></div>
             <div class="carousel-caption " >
-              <h1 class="bienvenido animated bounceIn slower"  data-id="1" >Bienvenido</h1>
+              <h1 class="bienvenido animated bounceIn slower"  data-id="1" >Bienvenido <?php if (isset ($_SESSION['id'])){ echo $_SESSION['nombre'];} ?></h1>
               <h3 class="blanco animated bounceIn slower" data-id="2">¿Buscas Ayuda?</h3>
             </div>
           </div>
@@ -77,12 +80,11 @@
 <div class="container-fluid "  >
   <div id="objetivo" class="row animatedParent objetivo">
     <div class="text-center col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-3 titulo-obj animated bounceInUp"  data-id="1">
-      <h2 class="sub"> OBJETIVO DE PANDA </h2>
-      <p align="justify">
-        El objetivo de <strong>PANDA</strong> (Pagina web de Ayuda para Niños con Deficit de Atencion e Hiperactividad)
-        estará centrada en la ayuda a los niños y familiares que enfrenten este
-        problema, brindándoles información adecuada sobre este tema además de actividades
-        que ayudaran a los niños a progresar en su educación junto a su tratamiento
+      <h2 class="sub"> O B J E T I V O </h2>
+      <p>
+        Esta página web estará centrada en la ayuda a los niños y familiares que enfrenten el
+        problema del déficit de atención, brindándoles información sobre este tema además de actividades
+        que ayudaran a los niños a progresar junto a su tratamiento en su educación
       </p>
     </div>
   </div>

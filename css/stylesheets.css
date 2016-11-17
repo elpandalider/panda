@@ -29,7 +29,20 @@ div.fab{
   position:fixed;
   z-index: 1;
   bottom: 4%;
+  left: 86%;
+}
+div.fab-reco{
+  position:fixed;
+  width: 15%;
   left: 85%;
+  bottom: 0%;
+  height: 100%;
+
+}
+div.panel-izq{
+  background-color: #80D8FF !important;
+  height: 100%;
+  padding: 5px;
 }
 span.fab-icon{
   margin-top: 15px;

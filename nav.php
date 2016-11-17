@@ -1,5 +1,5 @@
 <?php
-echo "
+$nav = "
 <nav class='navbar navbar-fixed-top navegador' role='navigation'>
   <div class='container'>
     <div class='navbar-header'>
@@ -43,9 +43,16 @@ echo "
           </ul>
         </li>
         <li><button  onClick='location.href=\"test.php\"' type='button' class='btn btn-raised btn-primary navbar-btn'> TEST</button></li>
-      </ul>
+        <li class='dropdown'>
+          <a href='#' class='dropdown-toggle btn-lg navegador' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'> <span class='glyphicon glyphicon-user' aria-hidden='true'></span><span class='caret'></span></a>
+          <ul class='dropdown-menu'>";
+        if (isset ($_SESSION['id'])){
+          $nav = $nav . "<li><a href='cerrarSesion.php'><span class='glyphicon glyphicon-off' aria-hidden='true'></span> Cerrar Sesion</a></li>";
+        }else{
+          $nav = $nav . "<li><a href='registro.php'><span class='glyphicon glyphicon-pencil' aria-hidden='true'></span> Registrarse</a></li>
+          <li><a href='login.php'><span class='glyphicon glyphicon-ok' aria-hidden='true'></span> Iniciar Sesion</a></li>";
+        }
 
-    </div>
-  </div>
-</nav>
-";
+        $nav = $nav . "</ul></li></ul></div></div></nav>";
+        echo $nav;
+?>
