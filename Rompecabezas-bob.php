@@ -85,7 +85,7 @@ if(!empty($_POST))
             <div id ="cal" class="ec-stars-wrapper col-md-offset-4 col-md-4">
               <?php $id = 1;
               for($x=1; $x<=($cal); $x++){
-    	        echo "<a href='#cal' id='" . $id . "' onclik='calificar()' class='select' data-value=" . $x ." title='Votar con " . $x ." estrellas'>&#9733;</a>";
+    	        echo "<a href='#cal' id='" . $id . "' onclick='calificar()' class='select' data-value=" . $x ." title='Votar con " . $x ." estrellas'>&#9733;</a>";
               $id = $id +1; }
               for($x=1; $x<=(5-$cal); $x++){
     	        echo "<a href='#cal' id='" . $id . "' class='noSelect' data-value=" . $x ." title='Votar con " . $x ." estrellas'>&#9733;</a>";
